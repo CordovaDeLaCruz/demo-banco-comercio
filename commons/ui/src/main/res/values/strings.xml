@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="content_description_ic_logo">Logo</string>
+
+    <string name="button_continue">Continuar</string>
+    <string name="button_search">Buscar</string>
+    <string name="yes_uppercase">SI</string>
+    <string name="no_uppercase">NO</string>
+    <string name="back">Regresar</string>
+    <string name="retry">Reintentar</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="exit">Salir</string>
+    <string name="edit">Editar</string>
+    <string name="more">Ver más</string>
+    <string name="minus">Ver menos</string>
+    <string name="validate">Validar</string>
+    <string name="phone_code_peru">+51&#160;</string>
+    <string name="resend_code">Tu código fue enviado nuevamente</string>
+    <string name="input_text_show_password_icon_cd">Visualizar password</string>
+
+    <string name="input_error_default">Este campo es obligatorio.</string>
+
+    <string name="required_label">(*) Son campos obligatorios</string>
+
+    <string name="content_description_ic_toolbar_back">Regresar</string>
+
+    <string name="content_description_ic_padlock">Padlock</string>
+
+    <string name="alert_dialog_title_default">Ten encuenta que</string>
+    <string name="radio_button_terms_accept">Acepto&#160;</string>
+    <string name="radio_button_terms_conditions">Términos y condiciones</string>
+    <string name="radio_button_terms_and">&#160;y&#160;</string>
+    <string name="radio_button_terms_policies">Políticas de uso de datos personales</string>
+
+    <string name="profile_contact_title">Mi perfil</string>
+    <string name="add_family_contact_title">Agregar un familiar</string>
+    <string name="edit_family_contact_title">Editar familiar</string>
+    <string name="content_description_ic_toolbar_close">Cerrar</string>
+
+    <string name="ul_text_icon">Point</string>
+
+    <string name="my_profile">Mi Perfil</string>
+    <string name="sign_out">Cerrar sesión</string>
+
+    <string name="send_dynamic_key_ic_cellphone_cd">Cellphone</string>
+    <string name="send_dynamic_key_title">Verifica tu información</string>
+    <string name="send_dynamic_key_description">Te hemos enviado un mensaje de texto con un código al número de celular registrado. Ingrésalo aquí.</string>
+    <string name="send_dynamic_key_timer">Este código es válido por 10 minutos</string>
+    <string name="send_dynamic_resend">Volver a enviar código</string>
+    <string name="send_dynamic_change_phone_number">Actualizar número telefónico</string>
+
+    <string name="success_image">Success</string>
+    <string name="success_title">%s, bienvenida</string>
+    <string name="success_description">Tu cuenta se creó correctamente. Al iniciar sesión podrás autogestionar tus citas médicas, visualizar tus resultados y gestionar tus gastos con nosotros</string>
+    <string name="success_button">Ingresa a tu Clínica Online</string>
+
+    <string name="list_persons">Lista de Personas</string>
+
+    <string name="item_name">Nombre: %s</string>
+    <string name="item_user_name">Usuario: %s</string>
+    <string name="item_email">Correo: %s</string>
+    <string name="item_phone">Celular: %s</string>
+    <string name="item_go_to_post">Posteos</string>
+
+    <string name="list_posts">Lista de Posteos</string>
+
+    <string name="item_post_title">Título: %s</string>
+    <string name="item_post_description">Descripción: %s</string>
+    <string name="button_create_post">Crear posteo</string>
+
+    <string name="modal_create_post_title">Crear Post</string>
+    <string name="modal_new_post_title">Título</string>
+    <string name="modal_new_post_title_error">Ingrese un título</string>
+    <string name="modal_new_post_description">Descripción</string>
+    <string name="modal_new_post_description_error">Ingrese una descripción</string>
+    <string name="modal_new_post_btn_save">Guardar</string>
+
+</resources>

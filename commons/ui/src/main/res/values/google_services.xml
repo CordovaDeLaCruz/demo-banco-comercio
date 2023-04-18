@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">136933861367-ppcaaeh5kgl61qqg73o3acc4f5i7tvl0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">136933861367</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6k85_j10ibADdybxC6uIInazTB1uWC9s</string>
+    <string name="google_app_id" translatable="false">1:136933861367:android:57293bf4364eaca55df0f2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6k85_j10ibADdybxC6uIInazTB1uWC9s</string>
+    <string name="google_storage_bucket" translatable="false">clinica-internacional-app-dev.appspot.com</string>
+    <string name="project_id" translatable="false">clinica-internacional-app-dev</string>
+</resources>

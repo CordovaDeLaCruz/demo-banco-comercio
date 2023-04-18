@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_application_id" translatable="false">2199299793554482</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2199299793554482</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="content_description_ic_social_media_facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="content_description_ic_social_media_google">Google</string>
+</resources>

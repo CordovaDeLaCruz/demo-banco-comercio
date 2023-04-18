@@ -1,0 +1,2 @@
+[*.{kt,kts}]
+disabled_rules=experimental:package-name,experimental:argument-list-wrapping, import-ordering

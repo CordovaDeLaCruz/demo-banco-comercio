@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDate" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">#2F2F2F</item>
+    </style>
+    <style name="CustomWeek" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">#ff88ff</item>
+    </style>
+    <style name="CustomCalendar" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="android:textColorPrimary">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorOnPrimary">@color/teal_200</item>
+        <item name="colorSurface">@color/teal_200</item>
+    </style>
+</resources>

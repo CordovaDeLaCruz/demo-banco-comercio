@@ -1,0 +1,22 @@
+rootProject.name = "demo banco"
+
+includeBuild("configuration")
+
+include(":app")
+include ':commons:libs:networking'
+include ':commons:libs:constants'
+include ':commons:presentation'
+include ':commons:ui'
+include ':commons:domain'
+include ':features:splash'
+include ':features:security:client_login'
+include ':features:security:client_register'
+include ':features:security:client_recovery'
+
+include ':commons:libs:social_network'
+include ':commons:features'
+include ':features:session:profile'
+include ':features:session:home'
+include ':features:session:result'
+include ':features:session:schedule'
+include ':commons:libs:photo'

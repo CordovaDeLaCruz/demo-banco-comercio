@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="security_client_login_validate_welcome">Bienvenido</string>
+    <string name="security_client_login_validate_sign_in">Inicia sesión</string>
+    <string name="security_client_login_validate_tab_login">Iniciar sesión</string>
+    <string name="security_client_login_validate_tab_register">Crea una cuenta</string>
+    <string name="security_client_login_validate_document_type_label">Tipo de documento *</string>
+    <string name="security_client_login_validate_document_type_error">Ingresa un tipo de documento válido</string>
+    <string name="security_client_login_validate_document_number_label">Número de documento *</string>
+    <string name="security_client_login_validate_document_number_hint">Ingesa tu número de documento</string>
+
+    <string name="security_client_login_validate_email_label">Correo electrónico</string>
+    <string name="security_client_login_validate_email_hint">Ingresa tu correo electrónico</string>
+    <string name="security_client_login_validate_email_error">El correo electrónico no cumple con el formato correcto</string>
+
+    <string name="security_client_login_validate_document_number_dni_error">Tiene que ingresar 8 dígitos</string>
+    <string name="security_client_login_validate_document_number_ce_pas_error">Este campo es obligatorio</string>
+    <string name="security_client_login_validate_password_label">Contraseña *</string>
+    <string name="security_client_login_validate_password_hint">Ingresa tu contraseña</string>
+    <string name="security_client_login_validate_password_error">Contraseña inválida, tamaño máximo 8 caracteres y debe contener 1 mayúscula y 1 dígito como mínimo.</string>
+    <string name="security_client_login_validate_reset_password">Recuperar contraseña</string>
+    <string name="security_client_login_validate_social_media">Inicia sesión con tus redes sociales</string>
+    <string name="security_client_login_validate_social_media_error">No se ha podido iniciar sesión con la red social seleccionada</string>
+    <string name="security_client_login_validate_rrss_not_user">No existe una cuenta con los datos ingresados, si ya tienes una cuenta intenta "Recuperar contraseña"  o "Iniciar Sesión con usuario y contraseña"</string>
+
+    <string name="security_client_login_dynamic_key_ic_cellphone_cd">Cellphone</string>
+    <string name="security_client_login_dynamic_key_title">Verifica tu información</string>
+    <string name="security_client_login_dynamic_key_description">Te hemos enviado un mensaje de texto con un código al número de celular registrado. Ingrésalo aquí.</string>
+    <string name="security_client_login_dynamic_key_timer">Este código es válido por 10 minutos</string>
+    <string name="security_client_login_dynamic_resend">Volver a enviar código</string>
+
+    <string name="home">Home</string>
+</resources>
