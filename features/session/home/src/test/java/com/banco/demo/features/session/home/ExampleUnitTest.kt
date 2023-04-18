@@ -1,4 +1,4 @@
-package com.banco.demo.features.session.appointment
+package com.banco.demo.features.session.home
 
 import org.junit.Test
 

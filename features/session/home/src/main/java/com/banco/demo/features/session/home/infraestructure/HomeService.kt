@@ -9,12 +9,12 @@ import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
 import javax.inject.Inject
 
-class HomeService @Inject constructor(private val retrofit: Retrofit){
+class HomeService @Inject constructor(private val apiClient: HomeApiClient){
 
     suspend fun getPersons(
     ): List<PersonDateResponseDto> {
         return withContext(Dispatchers.IO) {
-            val response = retrofit.create(HomeApiClient::class.java)
+            val response = apiClient
                 .getPersons()
             response.body()!!
         }
@@ -23,7 +23,7 @@ class HomeService @Inject constructor(private val retrofit: Retrofit){
     suspend fun getPost(id: String
     ): List<PostResponseDto> {
         return withContext(Dispatchers.IO) {
-            val response = retrofit.create(HomeApiClient::class.java)
+            val response = apiClient
                 .getPosts(id)
             response.body()!!
         }
@@ -38,7 +38,7 @@ class HomeService @Inject constructor(private val retrofit: Retrofit){
                 body = body,
                 title = title
             )
-            val response = retrofit.create(HomeApiClient::class.java)
+            val response = apiClient
                 .createPost(createPostRequestDto)
             response.body()!!
         }

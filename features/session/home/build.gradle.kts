@@ -78,4 +78,10 @@ dependencies {
     androidTestImplementation(Dependencies.ESPRESSO_CORE)
     androidTestImplementation(Dependencies.COMPOSE_UI_TEST)
     androidTestImplementation(Dependencies.COMPOSE_UI_TOOLING)
+
+    testImplementation(Dependencies.STRIKT)
+    testImplementation(Dependencies.MOCKITO)
+    testImplementation(Dependencies.MOCKITO_INLINE)
+    testImplementation (Dependencies.MOCKITO_KOTLIN)
+    testImplementation (Dependencies.MOCKITO_COROUTINE)
 }

@@ -75,4 +75,10 @@ object Dependencies {
     const val ESPRESSO_CORE = "androidx.test.espresso:espresso-core:3.4.0"
     const val COMPOSE_UI_TEST = "androidx.compose.ui:ui-test-junit4:$COMPOSE_VERSION"
     const val COMPOSE_UI_TOOLING = "androidx.compose.ui:ui-tooling:$COMPOSE_VERSION"
+
+    const val STRIKT = "io.strikt:strikt-core:0.34.1"
+    const val MOCKITO = "org.mockito:mockito-core:5.2.0"
+    const val MOCKITO_INLINE = "org.mockito:mockito-inline:5.2.0"
+    const val MOCKITO_KOTLIN = "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
+    const val MOCKITO_COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4"
 }

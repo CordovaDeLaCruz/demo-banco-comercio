@@ -1,4 +1,4 @@
-package com.banco.demo.features.session.appointment
+package com.banco.demo.features.session.home
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

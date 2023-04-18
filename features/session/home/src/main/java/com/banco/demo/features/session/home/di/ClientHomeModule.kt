@@ -5,6 +5,7 @@ import com.banco.demo.features.session.home.domain.usecase.ClientHomeUseCases
 import com.banco.demo.features.session.home.domain.usecase.CreatePostUseCase
 import com.banco.demo.features.session.home.domain.usecase.GetPersonsUseCase
 import com.banco.demo.features.session.home.domain.usecase.GetPostsUseCase
+import com.banco.demo.features.session.home.infraestructure.HomeApiClient
 import com.banco.demo.features.session.home.infraestructure.HomeRepositoryImp
 import com.banco.demo.features.session.home.infraestructure.HomeService
 import com.banco.demo.features.session.home.infraestructure.mapper.CreatePostMapper
@@ -14,6 +15,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
+import retrofit2.Retrofit
 import javax.inject.Singleton
 
 @Module
@@ -31,6 +33,14 @@ object ClientHomeModule {
         return HomeRepositoryImp(
             apiService, responsePersonMapper, responsePostMapper, responseCreatePostMapper
         )
+    }
+
+    @Provides
+    @Singleton
+    fun provideHomeApiClient(
+        retrofit: Retrofit
+    ): HomeApiClient {
+        return retrofit.create(HomeApiClient::class.java)
     }
 
     @Provides
